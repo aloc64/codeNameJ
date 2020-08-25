@@ -183,11 +183,20 @@ url("font/Mont-ExtraLight.woff") format("woff")
 
 
 /* Tablet */
-@media only screen and (min-width:768px) and (max-width: 1279px) {
-
+@media only screen and (max-width: 1279px) {
+  .section1 .title {font-size:90px;}
+  .section1 .content {font-size:25px;}
+  .section1 .soon-wrapper .soon {font-size:2rem;}
 }
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
-
+  section .inner {width:90%;}
+  .section1 .title {font-size:45px;margin-top: 20px;}
+  .section1 .content {margin-top: 60px;font-size: 16px;} 
+  .section1 .content__container {padding:0 10px;}
+  .section1 .content__container__list__item { line-height: 50px; }
+  .section1 .content__container__text { line-height:50px; }
+  .section1 .soon-wrapper {margin: 60px auto 0;}
+  body .outerBorder {margin:80px 0 0;}
 }
